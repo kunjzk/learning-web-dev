@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form>
+      <div>
+        <label for="firstname">First Name:</label>
+        <input id="firstname", type="text" name="firstname", placeholder="Joe", required>
+
+        <label for="lastname">Last Name:</label>
+        <input id="lastname", type="text" name="lastname", placeholder="Smith", required>
+      </div>
+
+      <div>
+        <label for="male_gender">Male</label>
+        <input id="male_gender", type="radio" name="gender" value="male">
+
+        <label for="female_gender">Female</label>
+        <input id="female_gender", type="radio" name="gender" value="female">
+
+        <label for="other_gender">Other</label>
+        <input id="other_gender", type="radio" name="gender" value="other">
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input id="email", type="email" name="email", placeholder="me@example.com", required>
+
+        <label for="password">Password</label>
+        <input id="password", type="password" name="password", pattern=".{5,10}", required title="Password must be between 5 and 10 letters">
+      </div>
+
+      <div>
+        <label>Birthday</label>
+        <select name="birth_month">
+          <option>Jan</option>
+          <option>Feb</option>
+          <option>Mar</option>
+        </select>
+        <select name="birth_date">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+        <select name="birth_year">
+          <option>1995</option>
+          <option>1996</option>
+          <option>1997</option>
+        </select>
+      </div>
+
+
+      <label for="tnc">I agree the terms and conditions</label>
+      <input id="agreed", type="radio", required>
+
+      <br>
+
+      <input type="submit">
+
+    </form>
+  </body>
+</html>

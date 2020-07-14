@@ -1,0 +1,43 @@
+
+/* Element Selector */
+body {
+  background: orange;
+}
+
+/* ID selector  */
+#currently_doing {
+  color: green;
+}
+
+/* Class Selector */
+.completed {
+  text-decoration: line-through;
+}
+
+/* Star selector : all elements */
+* {
+  border: 1px solid lightgrey;
+}
+
+/* Descendant Selectors: for specificity, subsetting */
+
+ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Adjacent selectors */
+
+h1 + ul {
+  border: 2px solid red;
+}
+
+/* Attribute selectors: select based on an attribute value */
+a[href="https://www.google.com"] {
+  background: blue;
+}
+
+/* XXX: nth of type: apply to nth element of a given type */
+li:nth-of-type(3){
+  background: red;
+}

@@ -1,0 +1,10 @@
+p {
+  /* TODO: content: width and height */
+  width: 50%;
+  /* TODO: border */
+  border: 2px solid black;
+  /* TODO: padding */
+  padding-left: 40px;
+  /* TODO: margin */
+  margin: 5px auto 5px auto;
+}

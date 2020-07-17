@@ -1,0 +1,19 @@
+/* TODO: Centralize the header */
+h1 {
+  text-align: center;
+}
+
+table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+}
+
+table {
+  margin: 0 auto;
+  border-style: hidden;
+}

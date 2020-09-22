@@ -13,6 +13,11 @@ app.get("/dogs", function(req, res){
   res.send("Hi There dogs");
 });
 
+app.get("/r/:subRedditName", function(req,res){
+  console.log(req.params);
+  res.send("Welcome to a subreddit for " + req.params.subRedditName);
+})
+
 app.get("*", function(res,req){
   res.send("invalid url fk off");
 });
